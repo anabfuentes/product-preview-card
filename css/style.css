@@ -1,4 +1,52 @@
-/*Global Styles*/
+/*********************************** Global Styles ****************************************/
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body .content-wrapper {
+    background-color: white; 
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.new-price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+button {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+
 
 /*Footer*/
 .attribution { 
@@ -8,6 +56,23 @@
 .attribution a {
     color: black;
 }
+
+
+
+/*Mobile Styles*/
+body {
+width: 375px;
+margin: 0 auto;
+overflow: auto;
+}
+
+body .content-wrapper {
+    border-radius: 25px;
+}
+
+
+
+/*Desktop Styles*/
 
 
 /*
