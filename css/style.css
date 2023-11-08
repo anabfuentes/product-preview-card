@@ -1,10 +1,49 @@
+/************************************ Base Styles *****************************************/
+html {
+    color: hsl(228, 12%, 48%);
+    font-size: 1em;
+    line-height: 1;
+  }
+  
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+
+/*Removes gap at image container bottom */
+img {
+    vertical-align: middle;
+  }
+
+/* Removes default fieldset styles. */
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Allows only vertical resizing of textareas. */
+textarea {
+    resize: vertical;
+  }
+  
+
 /*********************************** Global Styles ****************************************/
+
+html {
+    font-size: 1rem;
+  
+  }
 
 body {
     background-color: hsl(30, 38%, 92%);
-    color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    text-align: left;
 }
 
 body .content-wrapper {
@@ -13,26 +52,42 @@ body .content-wrapper {
 
 h1 {
     text-transform: uppercase;
+    letter-spacing: .5em;
+    font-size: .9em;
+    font-weight: 200;
 }
 
 h2 {
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
+    font-size: 2.3em;
+    font-weight: 500;
+    margin: 0;
 }
 
 
 p {
-    font-size: 14px;
-    line-height: 36px;
-}
+    font-size: 1em;
+    line-height: 1.285;
+  
+  }
 
 .new-price {
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
+    font-size: 2.25em;
+    margin: 0;
 }
 
 .old-price {
     text-decoration: line-through;
+    margin: 0;
+}
+
+.prices {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 button {
@@ -46,6 +101,41 @@ button {
     border: none;
 }
 
+/*Mobile Styles*/
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    overflow: auto;
+    }
+    
+body .content-wrapper {
+        border-radius: 25px;
+    }
+    
+    
+
+
+/*Header*/
+
+img {
+    width: 100%;
+  
+  }
+
+h1 {
+    margin: 25px 0 15px 25px;
+}
+
+/*Main*/
+
+h2 {
+    margin: 0 0 15px 25px;
+}
+
+p {
+    margin: 0 20px 20px 20px;
+}
 
 
 /*Footer*/
@@ -55,19 +145,6 @@ button {
 
 .attribution a {
     color: black;
-}
-
-
-
-/*Mobile Styles*/
-body {
-width: 375px;
-margin: 0 auto;
-overflow: auto;
-}
-
-body .content-wrapper {
-    border-radius: 25px;
 }
 
 
