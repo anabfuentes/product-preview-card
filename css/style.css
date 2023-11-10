@@ -113,6 +113,11 @@ button {
     margin-bottom: 25px;
 }
 
+button img {
+    width: 5%;
+    height: 5%;
+}
+
 /*Mobile Styles*/
 
 body {
