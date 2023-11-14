@@ -113,7 +113,7 @@ button {
     margin-bottom: 25px;
 }
 
-button #text,
+/*button #text,*/
 object {
     display: flex;  
     justify-content: center;  
