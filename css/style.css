@@ -113,11 +113,16 @@ button {
     margin-bottom: 25px;
 }
 
+svg {
+    padding-right: 20px;
+}
+
 
 /*Mobile Styles*/
 
 body {
-    width: 375px;
+    min-width: 375px;
+    max-width: 1399px;
     margin: 0 auto;
     overflow: auto;
     }
@@ -126,8 +131,6 @@ body .content-wrapper {
         border-radius: 25px;
     }
     
-    
-
 
 /*Header*/
 
@@ -165,6 +168,28 @@ p {
 
 
 /*Desktop Styles*/
+
+body {
+    min-width: 1200px;
+    max-width: none;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/*Header*/
+
+img {
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  
+  }
+
+  /* Main */
+
+.product-info {
+
+}
 
 
 /*
