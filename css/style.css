@@ -121,8 +121,7 @@ svg {
 /*Mobile Styles*/
 
 body {
-    min-width: 375px;
-    max-width: 1399px;
+    width: 375px;
     margin: 0 auto;
     overflow: auto;
     }
@@ -169,9 +168,10 @@ p {
 
 /*Desktop Styles*/
 
+@media (min-width: 1200px) {
+
 body {
-    min-width: 1200px;
-    max-width: none;
+    /*width: 1440px;*/
     margin: 0 auto;
     overflow: auto;
 }
@@ -191,6 +191,7 @@ img {
 
 }
 
+}
 
 /*
 Fonts: 
