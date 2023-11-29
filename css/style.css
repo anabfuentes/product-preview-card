@@ -133,12 +133,9 @@ body .content-wrapper {
 
 /*Header*/
 
-img {
-    width: 100%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-  
-  }
+.product-image {
+
+}
 
 h1 {
     margin: 25px 0 15px 25px;
@@ -178,16 +175,11 @@ body {
 
 /*Header*/
 
-img {
-    width: 100%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-  
-  }
 
-  /* Main */
+/* Main */
 
 .product-info {
+
 
 }
 
