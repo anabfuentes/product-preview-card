@@ -133,8 +133,11 @@ body .content-wrapper {
 
 /*Header*/
 
-.product-image {
-
+img {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 h1 {
