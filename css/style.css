@@ -157,7 +157,8 @@ p {
 
 /*Footer*/
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a {
@@ -171,7 +172,7 @@ p {
 @media (min-width: 1200px) {
 
 body {
-    width: 1440px;
+    width: 1200px;
     margin: 0 auto;
     overflow: auto;
 }
@@ -181,15 +182,5 @@ body {
 
 /* Main */
 
-.product-info {
-
 
 }
-
-}
-
-/*
-Fonts: 
-font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif;
-*/
