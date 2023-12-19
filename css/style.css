@@ -178,7 +178,10 @@ body {
 }
 
 /*Header*/
-
+body .content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Main */
 
