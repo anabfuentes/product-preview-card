@@ -1,204 +1,203 @@
 /************************************ Base Styles *****************************************/
 html {
-    color: hsl(228, 12%, 48%);
-    font-size: 1em;
-    line-height: 1;
-  }
-  
+  color: hsl(228, 12%, 48%);
+  font-size: 1em;
+  line-height: 1;
+}
+
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
 
 /*Removes gap at image container bottom */
 img {
-    vertical-align: middle;
-  }
+  vertical-align: middle;
+}
 
 /* Removes default fieldset styles. */
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 /* Allows only vertical resizing of textareas. */
 textarea {
-    resize: vertical;
-  }
-  
+  resize: vertical;
+}
 
 /*********************************** Global Styles ****************************************/
 
 html {
-    font-size: 1rem;
-  
-  }
+  font-size: 1rem;
+}
 
 body {
-    background-color: hsl(30, 38%, 92%);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    text-align: left;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: left;
 }
 
 body .content-wrapper {
-    background-color: white; 
-    margin: 25px 0;
+  background-color: white;
+  margin: 25px 0;
 }
 
 h1 {
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    font-size: .9em;
-    font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.product-image {
+    display: flex;
+    justify-content: flex-start;
+    background: url("../images/image-product-mobile.jpg") center no-repeat white;
+    background-size: cover;
+    max-height: 500px;
 }
 
 h2 {
-    font-family: 'Fraunces', serif;
-    color: hsl(212, 21%, 14%);
-    font-size: 2.3em;
-    font-weight: 500;
-    margin: 0;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 2.3em;
+  font-weight: 500;
+  margin: 0;
 }
 
-
 p {
-    font-size: 1em;
-    line-height: 1.65;
-  
-  }
+  font-size: 1em;
+  line-height: 1.65;
+}
 
 .new-price {
-    font-family: 'Fraunces', serif;
-    color: hsl(158, 36%, 37%);
-    font-size: 2.25em;
-    margin: 0;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 2.25em;
+  margin: 0;
 }
 
 .old-price {
-    text-decoration: line-through;
-    margin: 0;
-    padding-left: 25px;
-    padding-top: 15px;
+  text-decoration: line-through;
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 15px;
 }
 
 .prices {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    padding-left: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  padding-left: 25px;
 }
 
 .button-container {
-    display: flex;  
-    justify-content: center;  
-    align-items: center;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-    color: white;
-    background-color: hsl(158, 36%, 37%);
-    font-size: 14px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    padding: 14px 40px;
-    border-radius: 8px;
-    border: none;
-    width: 90%;
-    margin-bottom: 25px;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding: 14px 40px;
+  border-radius: 8px;
+  border: none;
+  width: 90%;
+  margin-bottom: 25px;
 }
 
 svg {
-    padding-right: 20px;
+  padding-right: 20px;
 }
-
 
 /*Mobile Styles*/
 
 body {
-    width: 375px;
-    margin: 0 auto;
-    overflow: auto;
-    }
-    
+  width: 375px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
 body .content-wrapper {
-        border-radius: 25px;
-    }
-    
+  border-radius: 25px;
+}
 
 /*Header*/
 
 img {
-    width: 100%;
-    height: auto;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 h1 {
-    margin: 25px 0 15px 25px;
+  margin: 25px 0 15px 25px;
 }
 
 /*Main*/
 
 h2 {
-    margin: 0 0 15px 25px;
+  margin: 0 0 15px 25px;
 }
 
 p {
-    margin: 0 20px 20px 20px;
+  margin: 0 20px 20px 20px;
 }
 
-
 /*Footer*/
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: black;
+  color: black;
 }
-
-
 
 /*Desktop Styles*/
 
 @media only screen and (min-width: 1200px) {
-
-body {
+  body {
     width: 1200px;
     margin: 0 auto;
     overflow: auto;
-}
+  }
 
-/*Header*/
-body .content-wrapper {
+  /*Header*/
+  body .content-wrapper {
     display: flex;
     flex-direction: row;
     width: 60%;
     height: auto;
     justify-content: center;
     align-content: flex-start;
-}
+  }
 
-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-}
+  .product-image {
+    display: flex;
+    justify-content: flex-start;
+    background: url("../images/image-product-desktop.jpg") right no-repeat white;
+    background-size: cover;
+    max-height: 500px;
+  }
 
-/* Main */
+  /* Main */
 
-main {
- justify-content: left;
- width: 50%;
- align-items: center;
-}
-
+  main {
+    justify-content: left;
+    width: 50%;
+    align-items: center;
+  }
 }
