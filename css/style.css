@@ -42,6 +42,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   text-align: left;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 body .content-wrapper {
@@ -56,7 +59,7 @@ h1 {
   font-weight: 200;
 }
 
-.product-image {
+.product-category .product-image {
     display: flex;
     justify-content: flex-start;
     background: url("../images/image-product-mobile.jpg") center no-repeat white;
@@ -160,10 +163,12 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  width: 100%;
 }
 
 .attribution a {
   color: black;
+
 }
 
 /*Desktop Styles*/
@@ -172,7 +177,6 @@ p {
   body {
     width: 1200px;
     margin: 0 auto;
-    overflow: auto;
   }
 
   /*Header*/
@@ -185,7 +189,7 @@ p {
     align-content: flex-start;
   }
 
-  .product-image {
+  .product-category .product-image {
     display: flex;
     justify-content: flex-start;
     background: url("../images/image-product-desktop.jpg") right no-repeat white;
