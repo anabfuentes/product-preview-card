@@ -215,7 +215,12 @@ p {
   margin: 0 20px 20px 20px;
 }
 
-/*Footer*/
+/*Footer*/  
+
+footer .content-wrapper {
+    width: 100%;
+  }
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -232,19 +237,18 @@ p {
   body {
     width: 1200px;
     margin: 0 auto;
-  }
-
-  /*Header*/
-  body .content-wrapper {
     display: flex;
-    flex-direction: row;
-    width: 60%;
-    height: auto;
-    justify-content: center;
-    align-content: flex-start;
+    flex-flow: row wrap;
   }
 
-  header .product-image {
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+
+  .product-image {
     display: flex;
     justify-content: flex-start;
     background: url("../images/image-product-desktop.jpg") right no-repeat white;
@@ -252,11 +256,4 @@ p {
     max-height: 500px;
   }
 
-  /* Main */
-
-  main {
-    justify-content: left;
-    width: 50%;
-    align-items: center;
-  }
 }
