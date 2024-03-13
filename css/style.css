@@ -148,6 +148,28 @@ p {
   padding-top: 15px;
 }
 
+svg {
+  padding-right: 20px;
+}
+
+footer .content-wrapper {
+  width: 100%;
+}
+
+/*Mobile Styles - Body*/
+
+/*Section - Image*/
+
+.product-image {
+  display: flex;
+  justify-content: flex-start;
+  background: url("../images/image-product-mobile.jpg") center no-repeat white;
+  background-size: cover;
+  max-height: 500px;
+}
+
+/*Article - Product Text*/
+
 .prices {
   display: flex;
   justify-content: flex-start;
@@ -174,13 +196,7 @@ button {
   margin-bottom: 25px;
 }
 
-svg {
-  padding-right: 20px;
-}
-
-footer .content-wrapper {
-  width: 100%;
-}
+/*Footer*/
 
 .attribution {
   font-size: 11px;
@@ -191,21 +207,6 @@ footer .content-wrapper {
 .attribution a {
   color: black;
 }
-
-/*Mobile Styles - Body*/
-
-/*Section - Image*/
-
-.product-image {
-  display: flex;
-  justify-content: flex-start;
-  background: url("../images/image-product-mobile.jpg") center no-repeat white;
-  background-size: cover;
-  max-height: 500px;
-}
-
-
-/*Article - Product Text*/
 
 
 /*Desktop Styles*/
