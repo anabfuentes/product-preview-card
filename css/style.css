@@ -97,14 +97,13 @@ body {
   background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-content: center;
   text-align: left;
 
 }
 
 body .content-wrapper {
+  display: flex;
+  justify-content: center;
   background-color: white;
   margin: 25px 0;
   border-radius: 25px;
@@ -158,17 +157,31 @@ footer .content-wrapper {
 
 /*Mobile Styles - Body*/
 
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main {
+  width: 100%;
+}
+
 /*Section - Image*/
 
-.product-image {
+
+
+.product-image img {
+  width: 50%;
   display: flex;
-  justify-content: flex-start;
   background: url("../images/image-product-mobile.jpg") center no-repeat white;
-  background-size: cover;
-  max-height: 500px;
+  
 }
 
 /*Article - Product Text*/
+
+article .content-wrapper {
+  width: 50%;
+}
 
 .prices {
   display: flex;
@@ -198,10 +211,13 @@ button {
 
 /*Footer*/
 
+footer {
+  width: 100%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  width: 100%;
 }
 
 .attribution a {
