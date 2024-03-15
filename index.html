@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Frontend Mentor | Product preview card component</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./images/favicon-32x32.png"
+  />
+    <title>Frontend Mentor | Product preview card component</title>
+    <!-- My CSS -->
     <link rel="stylsheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,14 +25,13 @@
   <body>
     <main>
       <article class="product">
-        <section class="image-container">
           <picture class="product-image">
+          <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
             <img
               src="images/image-product-mobile.jpg"
               alt="Gabrielle Essence perfume bottle laying flat on a white surface, surrounded by leafy, green plants"
             />
           </picture>
-        </section>
 
         <div class="product-text">
           <h2 class="product-category">Perfume</h2>

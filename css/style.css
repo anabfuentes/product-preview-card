@@ -16,7 +16,7 @@
   4. Improve text rendering
 */
 body {
-  line-height: 1.5;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 /*
@@ -39,6 +39,10 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+h1, h2 {
+  line-height: 1;
+}
+
 /*********************************** Global Styles ****************************************/
 
 body {
@@ -57,98 +61,77 @@ body {
   display: flex;
   flex-flow: row wrap;
   gap: .75rem;
+  align-items: center;
 }
 
 .product {
+  display: grid;
   background-color: white;
   border-radius: .5rem;
   overflow: hidden;
+  max-width: 600px;
+}
+
+@media (min-width: 600px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .product-text {
-  border: 3px dotted rgb(243, 100, 124);
   padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
 }
 
-h2 {
+.product-category {
   text-transform: uppercase;
-  letter-spacing: 0.5em;
-  font-size: 0.9em;
-  font-weight: 200;
-  margin: 25px 0 15px 25px;
-}
-
-
-h1 {
-  font-family: "Fraunces", serif;
-  color: hsl(212, 21%, 14%);
-  font-size: 2.3em;
+  letter-spacing: 5px;
+  font-size: .825rem;
   font-weight: 500;
-  margin: 0 0 15px 25px;
 }
 
-p {
-  font-size: 1em;
-  line-height: 1.65;
-  margin: 0 20px 20px 20px;
+.product-title {
+  font-size: 2rem;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
 }
 
 .new-price {
   font-family: "Fraunces", serif;
   color: hsl(158, 36%, 37%);
-  font-size: 2.25em;
-  margin: 0;
+  font-size: 2rem;
 }
 
 .old-price {
   text-decoration: line-through;
-  margin: 0;
-  padding-left: 25px;
-  padding-top: 15px;
 }
 
 svg {
   padding-right: 20px;
 }
 
-footer .content-wrapper {
-  width: 100%;
-}
-
-/*Mobile Styles - Body*/
-
-/*Section - Image*/
-
-/*Article - Product Text*/
-
-article .content-wrapper {
-  width: 50%;
-}
-
-.button-container {
-  display: flex;
+button {
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: .9rem;
+  padding: .75em 1.5em;
+  border-radius: .5rem;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  gap: .8rem;
   justify-content: center;
   align-items: center;
 }
 
-button {
-  color: white;
-  background-color: hsl(158, 36%, 37%);
-  font-size: 14px;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
-  padding: 14px 40px;
-  border-radius: 8px;
-  border: none;
-  width: 90%;
-  margin-bottom: 25px;
+.button:is(:hover, :focus) {
+  background-color: hsl(158, 36%, 20%)
 }
 
 /*Footer*/
-
-footer {
-  width: 100%;
-}
 
 .attribution {
   font-size: 11px;
