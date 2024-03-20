@@ -68,12 +68,14 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-I want to continue to read up on and figure out useful implementations of CSS Grid. I primarily use Flexbox, but there were a few moments during coding for this project that Grid seemed simpler, so I definitely want to become more knowledgable in this CSS area.
+I want to continue to read up on and figure out useful implementations of CSS Grid. I primarily use Flexbox, but there were a few moments during coding for this project that Grid seemed simpler, so I definitely want to become more knowledgable in this area.
+
+I also found some great articles and videos I want to look further, the topics include CSS Resets, Custom CSS Properties, and how to best section html code.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- ["A Complete Guide to CSS Grid" via CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me more easily format this project. I really liked incorporating a mixture of Grid and Flexbox and I found this guide to be extremely easy to read through and implement.
+- [Video: "Taking on a Frontend Mentor challenge | Responsive Product Preview Card Component" by Kevin Powell](https://www.youtube.com/watch?v=B2WL6KkqhLQ) - I initially watched this video as I wanted to see examples of how people coded the main images for the challenge and this definitely helped with that, but also introduced me to so many other CSS concepts that I'm eager to learn more about. Some of the topics I found most interesting/helpful: Implementing a CSS reset, Implementing custom properties, :is():, and a great way to change images based on different media breakpoints.
 
 ## Author
 
@@ -81,9 +83,7 @@ I want to continue to read up on and figure out useful implementations of CSS Gr
 - Frontend Mentor - [@anabfuentes](https://www.frontendmentor.io/profile/anabfuentes)
 - LinkedIn - [Ana Fuentes](https://www.linkedin.com/in/anafuentesdeveloper/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
-To figure how to change the main image based on the mobile and desktop breakpoints, I followed along with a tutorial [Kevin Powell](https://youtube.com/kevinpowell) has available on YouTube. After watching his solution, I saw there were a lot of great CSS methods he used that I tried out in my code as well. Thanks so much for making your tutorial available and showing me new, to me, CSS tricks!
+To figure how to change the main image based on the mobile and desktop breakpoints, I followed along with a tutorial [Kevin Powell](https://youtube.com/kevinpowell) has available on YouTube. After watching his solution, I saw there were a lot of great CSS methods he used that I tried out in my code as well. Thanks so much for making your tutorial available and showing me some new CSS and HTML tricks!
 
