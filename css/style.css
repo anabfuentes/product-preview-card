@@ -71,7 +71,7 @@ body {
 
   display: grid;
   place-content: center;
-  margin: 1rem;
+  margin: 8rem;
 }
 
 .flex-group {
@@ -150,7 +150,7 @@ button {
 }
 
 .attribution {
-  padding-top: 5em;
+  padding-top: 10rem;
   text-align: center;
   font-size: 0.75em;
 }
