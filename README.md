@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://github.com/anabfuentes/product-preview-card)
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://anabfuentes.github.io/product-preview-card/)
 
 ## My process
 
