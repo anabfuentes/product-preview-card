@@ -46,24 +46,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 The below HTML code was probably the biggest thing I learned and I'm happy to have found. I got this idea from Kevin Powell who I acknowledge and link below. I was really struggling to figure out how to effectively change images at my set breakpoint. I found this to be my favorite and most effective method. Previous to this project, I didn't know about the srcset element for changing out images.
 
 
@@ -79,8 +61,6 @@ The below HTML code was probably the biggest thing I learned and I'm happy to ha
       />
 </picture>
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
