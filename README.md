@@ -64,6 +64,22 @@ const proudOfThisFunc = () => {
 }
 ```
 
+The below HTML code was probably the biggest thing I learned and I'm happy to have found. I got this idea from Kevin Powell who I acknowledge and link below. I was really struggling to figure out how to effectively change images at my set breakpoint. I found this to be my favorite and most effective method. Previous to this project, I didn't know about the srcset element for changing out images.
+
+
+```html
+<picture class="product-image">
+  <source
+      srcset="images/image-product-desktop.jpg"
+      media="(min-width: 600px)"
+      />
+      <img
+      src="images/image-product-mobile.jpg"
+      alt="Gabrielle Essence perfume bottle laying flat on a white surface, surrounded by leafy, green plants"
+      />
+</picture>
+```
+
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
